@@ -83,6 +83,8 @@
 			dependencies = (
 			);
 			name = StaticLibConsumerAppDemo;
+			packageProductDependencies = (
+			);
 			productName = StaticLibConsumerAppDemo;
 			productReference = 32FEF9BA28B580DE00E28BBB /* StaticLibConsumerAppDemo.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +113,8 @@
 				Base,
 			);
 			mainGroup = 32FEF9B128B580DE00E28BBB;
+			packageReferences = (
+			);
 			productRefGroup = 32FEF9BB28B580DE00E28BBB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
