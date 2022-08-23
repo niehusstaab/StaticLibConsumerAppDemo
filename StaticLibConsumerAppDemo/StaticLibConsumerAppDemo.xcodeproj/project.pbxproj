@@ -13,6 +13,7 @@
 		32FEF9C528B580DE00E28BBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32FEF9C328B580DE00E28BBB /* Main.storyboard */; };
 		32FEF9C728B580E000E28BBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32FEF9C628B580E000E28BBB /* Assets.xcassets */; };
 		32FEF9CA28B580E000E28BBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32FEF9C828B580E000E28BBB /* LaunchScreen.storyboard */; };
+		32FEFA0828B5953800E28BBB /* StaticLib in Frameworks */ = {isa = PBXBuildFile; productRef = 32FEFA0728B5953800E28BBB /* StaticLib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32FEFA0828B5953800E28BBB /* StaticLib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +86,7 @@
 			);
 			name = StaticLibConsumerAppDemo;
 			packageProductDependencies = (
+				32FEFA0728B5953800E28BBB /* StaticLib */,
 			);
 			productName = StaticLibConsumerAppDemo;
 			productReference = 32FEF9BA28B580DE00E28BBB /* StaticLibConsumerAppDemo.app */;
@@ -114,6 +117,7 @@
 			);
 			mainGroup = 32FEF9B128B580DE00E28BBB;
 			packageReferences = (
+				32FEFA0628B5953800E28BBB /* XCRemoteSwiftPackageReference "StaticLibDemo" */,
 			);
 			productRefGroup = 32FEF9BB28B580DE00E28BBB /* Products */;
 			projectDirPath = "";
@@ -364,6 +368,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		32FEFA0628B5953800E28BBB /* XCRemoteSwiftPackageReference "StaticLibDemo" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/niehusstaab/StaticLibDemo";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		32FEFA0728B5953800E28BBB /* StaticLib */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 32FEFA0628B5953800E28BBB /* XCRemoteSwiftPackageReference "StaticLibDemo" */;
+			productName = StaticLib;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 32FEF9B228B580DE00E28BBB /* Project object */;
 }

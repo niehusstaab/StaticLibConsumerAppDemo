@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "StaticLib",
+        "repositoryURL": "https://github.com/niehusstaab/StaticLibDemo",
+        "state": {
+          "branch": null,
+          "revision": "490899a1fa3c5652e1717039d7725460cefb6be6",
+          "version": "1.0.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
